@@ -1,0 +1,29 @@
+.centered-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-windows {
+    @extend .centered-container;
+    box-shadow: 0 0 5px 2px #fff;
+}
+
+.auth-action {
+    @extend .centered-container;
+    background-color: lightblue;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: x-large;
+    height: 500px;
+    width: 350px;
+    margin-right: 20px;
+}
+
+.auth-form {
+    @extend .centered-container;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 400px;
+    width: 450px;
+}
